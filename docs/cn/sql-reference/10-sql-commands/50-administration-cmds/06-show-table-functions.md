@@ -1,9 +1,9 @@
 ---
-title: 显示 TABLE_FUNCTIONS
+title: 显示表函数
 ---
 import FunctionDescription from '@site/src/components/FunctionDescription';
 
-<FunctionDescription description="引入或更新版本：v1.2.190"/>
+<FunctionDescription description="引入或更新: v1.2.190"/>
 
 显示当前支持的表函数列表。
 
@@ -34,7 +34,7 @@ SHOW TABLE_FUNCTIONS;
 +------------------------+
 ```
 
-显示以 `"number"` 开头的表函数：
+显示以 `"number"` 开头的表函数:
 ```sql
 SHOW TABLE_FUNCTIONS LIKE 'number%';
 +---------------+
@@ -46,7 +46,7 @@ SHOW TABLE_FUNCTIONS LIKE 'number%';
 +---------------+
 ```
 
-使用 `WHERE` 显示以 `"number"` 开头的表函数：
+使用 `WHERE` 显示以 `"number"` 开头的表函数:
 ```sql
 SHOW TABLE_FUNCTIONS WHERE name LIKE 'number%';
 +---------------+
